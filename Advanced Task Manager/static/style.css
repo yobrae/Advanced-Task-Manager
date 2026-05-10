@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  transition: 0.3s;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.dark {
+  background: #0f172a;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+li {
+  padding: 10px;
+  margin: 10px 0;
+  background: #ddd;
+  list-style: none;
+  cursor: grab;
+}
+
+.dark li {
+  background: #1e293b;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
